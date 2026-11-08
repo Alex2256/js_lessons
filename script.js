@@ -22,11 +22,11 @@
 Проверить, чтобы все работало без ошибок в консоли */
 
 'use strict';
-const numberOfFilms = prompt("Сколько фильмов вы уже посмотрели?");
+const numberOfFilms = +prompt("Сколько фильмов вы уже посмотрели?");
 const personalMovieDB = {
     count: numberOfFilms,
-    movies: { },
-    actors: { },
+    movies: {},
+    actors: {},
     genres: [],
     privat: false,
 };
